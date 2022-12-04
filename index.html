@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Programación I | Parcial 2 | APELLIDO/S</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+        
+        <!--<link rel="stylesheet" href="styles.css"/>-->
+
+        <link rel="stylesheet" href="styles.css">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="tamaño">
+            <header>
+                <h1>Programación I | Final | Toledo Julian | Mi carrito</h1>
+            </header>
+            <main>
+                <h2>Productos de Apple</h2>
+                <li id="home"><a href="index.html">HOME</a></li>
+                <div id="minicarrito">
+                    
+                    
+
+                    
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Carrito
+                    <span id="contador_carrito">0</span> </button> 
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de compras</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                             
+                            </div>
+                            <div class="modal-footer">
+                                <p>PrecioTotal $ <span id="precioTotal">0</span> </p>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-primary" id="vaciar_carrito">Vaciar Carrito</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                </div>
+
+                
+             
+                
+                <label for="catalogo">Elija una categoria de productos</label>
+                
+                <select name="catalogo-productos" id="catalogo">
+                    
+                    <option value="todas">--Elija una categoria--</option>
+                    <option value="Iphone">Iphone</option>
+                    <option value="Audio">Audio</option>
+                    <option value="iPad">iPad</option>
+                </select>
+
+                
+                
+                <section id="productos">
+                    
+
+                </section>
+
+
+            
+            </main>
+
+        
+        
+
+            
+
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
