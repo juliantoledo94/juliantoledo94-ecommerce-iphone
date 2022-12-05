@@ -332,10 +332,3 @@ function guardarStorage(){
 }
 
 
-/*
-
-https://www.youtube.com/watch?v=wXeVIchxiL0&t=762s
-
-min 27:33
-
-*/
